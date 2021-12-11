@@ -1,4 +1,4 @@
-package dsa.backtracking;
+package nabiel.backtracking;
 
 public class NQueens {
     public static void main(String[] args) {

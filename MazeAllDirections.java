@@ -1,4 +1,4 @@
-package dsa.backtracking;
+package nabiel.backtracking;
 
 // resource : https://youtu.be/zg5v2rlV1tM
 public class MazeAllDirections {
