@@ -1,10 +1,26 @@
 package nabiel.backtracking;
 
 public class NQueens {
+
+    /**
+     * InnerNQueens
+     */
+    static class NQueensGetAllPath {
+        public static void main(String[] args) {
+
+        }
+
+        // public static List<List<String>> nQueens(int n) {
+
+        // }
+    }
+
     public static void main(String[] args) {
-        int n = 5;
+        int n = 4;
+        // 1,2 (3)
+        // 3 - 2 = 1
         // x x x x
-        // x x x x
+        // x x x x  -> 1,2 -> 0,3
         // x x x x
         // x x x x
         boolean[][] board = new boolean[n][n];
